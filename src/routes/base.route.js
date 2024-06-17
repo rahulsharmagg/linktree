@@ -8,9 +8,10 @@ router.use(bodyParser.json())
 router.use(bodyParser.urlencoded({ extended: true }))
 
 router.get('/', (req, res, next) => {
-  res.json({
-    message: 'You\'re requesting link.tree home page.'
-  })
+  res.send(`
+    <p style="font-family: system-ui, sans-serif;text-align:center;">LinkTree is under maintainance and will be back in few days.</p>
+    <a href="https://www.codeblaze.in">Back to main site.</a>
+  `)
 })
 
 router.get('/buy/:tier', Auth, Buy)
