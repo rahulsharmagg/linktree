@@ -1,0 +1,26 @@
+{
+	"FREE": {
+    "unique_id": false,
+    "limit": 10,
+    "collection": 1,
+    "price": 0.00,
+    "currency": "INR",
+    "plan_type": "monthly"
+	},
+	"TIER-1":{
+    "unique_id": true,
+    "limit": 60,
+    "collection": 3,
+    "price": 5.00,
+    "currency": "INR",
+    "plan_type": "monthly"
+	},
+	"TIER-2":{
+    "unique_id": true,
+    "limit": 125,
+    "collection": 5,
+    "price": 10.00,
+    "currency": "INR",
+    "plan_type": "monthly"
+	}
+}
