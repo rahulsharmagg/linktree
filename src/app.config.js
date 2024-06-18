@@ -10,7 +10,8 @@ const { NotFound, ErrorHandler } = require(path.join(__dirname, 'middlewares', '
  * @type {Object}
  */
 const database = {
-  url: 'mongodb://localhost:27017/LinkTree'
+  // url: 'mongodb://localhost:27017/LinkTree',
+  url: 'mongodb+srv://'+ process.env.MONGO_USER +':'+ process.env.MONGO_PASS +'@cluster0.nwgbk2x.mongodb.net/LinkTree?retryWrites=true&w=majority&appName=Cluster0',
 }
 
 /**

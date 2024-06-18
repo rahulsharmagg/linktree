@@ -39,3 +39,6 @@ jspm_packages/
 
 # Mac specific
 .DS_Store
+
+# CURL
+curl.bash
